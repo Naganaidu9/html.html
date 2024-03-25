@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Facebook - login or sign up </title>
+        <style>
+            *{
+                margin:0px;
+                padding: 0px;
+            }
+            body{
+                background-color:gainsboro ;
+            }
+            #left{
+                float: left;
+            }
+            #right{
+                float: right;
+            }
+            img{
+               width: 250px; 
+               height: 90px;
+            }
+            #logo{
+                position: relative;
+                left: 205px;
+                top: 195px;
+              
+            }
+            #slogon{
+                position: relative;
+                left: 210px; 
+                top: 200px; 
+                font-size: x-large;
+            }
+            #box{
+                width: 400px;
+                height: 380px;
+                background-color: white;
+                position: relative;
+                right: 150px;
+                top: 110px;
+                border-radius: 10px;
+            }
+          
+            #textbox input{
+                width: 360px;
+                margin-left: 15px;
+                margin-top: 25px;
+                height: 50px;
+                border-radius: 5px;
+                font-size: larger;
+                padding-left: 10px;
+            }
+            #login button{
+                width: 360px; 
+                margin-top: 15px;
+                margin-left: 20px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: blue;
+                font-size: x-large;
+                color: white;
+                cursor:pointer;
+            }
+            #forget{
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: x-large;
+             }
+            #create button{
+                width: 360px; 
+                margin-top: 15px;
+                margin-left: 20px;
+                height: 50px;
+                font-size: x-large;
+                background-color: green;
+                color:white;
+                border-radius:5px;
+                cursor:pointer;
+            
+             }
+        </style>
+    </head>
+    <body>
+           <div id="left">
+                 <div id="logo">
+                    <img src="C:\Users\teja9\OneDrive\Desktop\Facebook-Logo-700x394.png" >
+
+                 </div>
+                 <div id="slogon">
+                    <p>Facebook helps you connect and share <br> with the people in your life</p>
+
+                 </div>
+           </div>
+           <div id="right">
+                 <div id="box">
+                    <div id="textbox">
+                        <input type="text" placeholder="email address or phone number">
+                        <input type="password"min="8"max="12" placeholder="password"></input>
+
+                    </div>
+                    <div id="login">
+                        <button>login</button>
+                    </div>
+                    <div id="forget">
+                       <a href="">forgotten password?</a>
+                    </div>
+                    <hr>
+                    <div id="create">
+                        <button>create account</button>
+
+                    </div>
+                 </div>   
+           </div>
+    </body>
+</html>
